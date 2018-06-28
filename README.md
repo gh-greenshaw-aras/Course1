@@ -11,23 +11,31 @@ It is possible to write Python programs (also known as scripts) using a simple t
 Lets start with a single line program, that displays Hello World!
 Open up the IDLE editor, it can usually be started with 'Python' or 'Idle'.
 Enter:
-`>>>  print('Hello World!')`
+
+```python
+>>>  print('Hello World!')
+```
 The three '>' symbols are already displayed by the editor.
 When you press Return, the IDLE editor should display:
 ```python
 Hello World!
 >>>
-``` 
-
+```
 If you exit the IDLE editor now, you would lose your one line program, so lets save it in a file.
 Select 'File' from the IDLE menu, then select 'New File'
 This should open a new window with a blank new file.
 Enter:
+
+```python
 print('Hello World!')
+```
 Then select 'File', then 'Save As' , navigate to the folder where you want to save your python programs, then enter the filename: 'hello.py' and press 'Save' button.
 Now you can run this program by selecting 'Run', then 'Run Module'. You can alternatively use the short-cut F5 key.
 This should also result in:
+
+```python
 Hello World!
+```
 in the IDLE window.
 
 <H4>Variables</H4>
