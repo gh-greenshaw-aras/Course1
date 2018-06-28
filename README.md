@@ -19,7 +19,7 @@ When you press Return, the IDLE editor should display:
 ```python
 Hello World!
 >>>
-```
+``` 
 
 If you exit the IDLE editor now, you would lose your one line program, so lets save it in a file.
 Select 'File' from the IDLE menu, then select 'New File'
