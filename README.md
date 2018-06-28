@@ -11,9 +11,7 @@ It is possible to write Python programs (also known as scripts) using a simple t
 Lets start with a single line program, that displays Hello World!
 Open up the IDLE editor, it can usually be started with 'Python' or 'Idle'.
 Enter:
-```
->>>  print('Hello World!')
-```
+`>>>  print('Hello World!')`
 The three '>' symbols are already displayed by the editor.
 When you press Return, the IDLE editor should display:
 ```python
