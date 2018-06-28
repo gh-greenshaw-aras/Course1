@@ -55,23 +55,31 @@ For example: 'green=1', or 'Frog=99.3' or 'value100="chip"'. Note that the capit
 <H4>Numbers</H4>
 Python supports two types of numbers - integers and floating point numbers
 To define an integer, use the following syntax:
+
+```python
     myint = 7
     print(myint)
-    
+``` 
 To define a floating point number, you may use one of the following notations:
+
+```python
     myfloat = 7.0
     print(myfloat)
     myfloat = float(7)
     print(myfloat)
-
+```
 <H4>Strings</H4>
 Strings are defined either with a single quote or a double quotes.
+
+```python
     mystring = 'hello'
     print(mystring)
     mystring = "hello"
     print(mystring)
-
+```
 Simple operators can be executed on numbers and strings:
+
+```python
     one = 1
     two = 2
     three = one + two
@@ -80,11 +88,13 @@ Simple operators can be executed on numbers and strings:
     world = "world"
     helloworld = hello + " " + world
     print(helloworld)
-
+```
 <H4>Exercise</H4>
 The target of this exercise is to create a string, an integer, and a floating point number.
 The string should be named mystring and should contain the word "hello".
 The floating point number should be named myfloat and should contain the number 10.0, and the integer should be named myint and should contain the number 20.
+
+```python
     # change this code
     mystring = None
     myfloat = None
@@ -97,7 +107,7 @@ The floating point number should be named myfloat and should contain the number 
         print("Float: %f" % myfloat)
     if isinstance(myint, int) and myint == 20:
         print("Integer: %d" % myint)
-
+```
 <H4>Lists</H4>
 Lists are collections values, similar to arrays. But unlike most other programming languages, Lists can contain different types of values.
 A list is created using the following syntax 'mylist=[]'. This will create an empty list, so if you 'print(mylist)' you will get '[]' indicating it is empty.
@@ -115,16 +125,23 @@ Strings can be concatenated together using the '+' operator, so print("Hello" + 
 <H4>Exercises</H4>
 Please try these exercises to test that you have understood today's topics:
 
-1. What is wrong with this statement?     print("apples')
-
+1. What is wrong with this statement?
+```python
+print("apples')
+```
 2. What will be displayed after these statements?
-        apples = 5
-        pears = 9.0
-        bananas = 2
-        grapes = 3
-        print(bananas + apples * pears / grapes)
 
+```python
+apples = 5
+pears = 9.0
+bananas = 2
+grapes = 3
+print(bananas + apples * pears / grapes)
+```
 3. What will be displayed after these statements?
-        primes=[1,2,3,5,7,11,13,17,19,23]
-        magic=primes[4]+primes[7]
-        print(magic)
+
+```python
+primes=[1,2,3,5,7,11,13,17,19,23]
+magic=primes[4]+primes[7]
+print(magic)
+```
